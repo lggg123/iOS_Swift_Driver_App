@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lBM-XL-pQ5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tutorial View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="tutorialvc" id="BYZ-38-t0r" customClass="TutorialViewController" customModule="Driveway" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5zU-PP-7Rt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eka-VP-wRG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OQp-Xm-gGP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial1" translatesAutoresizingMaskIntoConstraints="NO" id="str-SL-SVp">
+                                                <rect key="frame" x="101" y="79" width="172" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XlQ-J4-NXh">
+                                        <rect key="frame" x="46" y="352" width="282" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Need to guarantee a parking spot for
+an upcoming event?</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N9L-CM-Fyo">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z25-xV-haa">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial2" translatesAutoresizingMaskIntoConstraints="NO" id="C8C-cK-L5M">
+                                                <rect key="frame" x="101" y="79" width="172" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvn-h0-73m">
+                                        <rect key="frame" x="46" y="352" width="282" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Visiting an unfamiliar area and need to
+know where to park?</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5T-9a-1nZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zoa-xl-KeG">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_tutorial3" translatesAutoresizingMaskIntoConstraints="NO" id="o2u-aC-XOb">
+                                                <rect key="frame" x="101" y="79" width="172" height="155"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.039215686270000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfL-4X-YOj">
+                                        <rect key="frame" x="46" y="352" width="282" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <string key="text">With DRIVEWAY, find parking spots for rent
+and book them beforehand! </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="DJ3-V7-Eaa">
+                                <rect key="frame" x="168" y="426" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onPageChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="0h3-Ql-oNl"/>
+                                </connections>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPM-8A-73i">
+                                <rect key="frame" x="87" y="511" width="200" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.1450980392" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="23"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kdy-tz-i0A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO1-Ch-7M0">
+                                <rect key="frame" x="87" y="576" width="200" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSkip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZd-DF-k6i"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnNext" destination="IPM-8A-73i" id="AO5-wd-fG5"/>
+                        <outlet property="btnSkip" destination="hO1-Ch-7M0" id="vFj-3c-2Oh"/>
+                        <outlet property="pageCtrl" destination="DJ3-V7-Eaa" id="EYs-cg-By3"/>
+                        <outlet property="view1" destination="eka-VP-wRG" id="nKQ-Jr-DaC"/>
+                        <outlet property="view2" destination="N9L-CM-Fyo" id="tjA-Ho-wJe"/>
+                        <outlet property="view3" destination="h5T-9a-1nZ" id="smi-3l-eJW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1756" y="2149.4752623688159"/>
+        </scene>
+        <!--Custom Tab Bar Controller-->
+        <scene sceneID="RVb-zT-gkQ">
+            <objects>
+                <tabBarController storyboardIdentifier="tabbarvc" automaticallyAdjustsScrollViewInsets="NO" id="lBM-XL-pQ5" customClass="CustomTabBarController" customModule="Driveway" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mi0-17-Dod">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.039215686270000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.039215686270000001" green="0.20000000000000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="nDJ-eW-toq" kind="relationship" relationship="viewControllers" id="6hK-K9-OFL"/>
+                        <segue destination="NFY-hy-1n9" kind="relationship" relationship="viewControllers" id="5ej-qj-TNM"/>
+                        <segue destination="4nP-nh-qnY" kind="relationship" relationship="viewControllers" id="mGv-lv-dgs"/>
+                        <segue destination="FwI-vE-VLC" kind="relationship" relationship="viewControllers" id="SSA-f6-3EF"/>
+                        <segue destination="Q0r-vc-Uyk" kind="relationship" relationship="viewControllers" id="Aal-qR-aNE"/>
+                        <segue destination="Ono-Qo-bL7" kind="relationship" relationship="viewControllers" id="0Uc-ki-ESF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4HT-gE-kmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="2151"/>
+        </scene>
+        <!--customerhomenvc-->
+        <scene sceneID="wkY-kJ-kgw">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="customerhomenvc" storyboardName="CustomerHome" referencedIdentifier="customerhomenvc" id="nDJ-eW-toq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="WSc-sY-aUt"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dmn-no-8Bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="1839"/>
+        </scene>
+        <!--customerbookingsnvc-->
+        <scene sceneID="vZO-Q1-7XK">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="customerbookingsnvc" storyboardName="CustomerBookings" referencedIdentifier="customerbookingsnvc" id="NFY-hy-1n9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="i0W-EJ-dME"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="347-Ro-5cf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="1923"/>
+        </scene>
+        <!--hostbookingsnvc-->
+        <scene sceneID="Dcw-Fe-6Tq">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="hostbookingsnvc" storyboardName="HostBookings" referencedIdentifier="hostbookingsnvc" id="Ono-Qo-bL7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="tmI-Ik-GC3"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NL5-Qw-HKj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="2015"/>
+        </scene>
+        <!--messagesnvc-->
+        <scene sceneID="dfb-K1-JE2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="messagesnvc" storyboardName="Messages" referencedIdentifier="messagesnvc" id="4nP-nh-qnY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="nCU-7r-Isi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wSF-ii-TUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281" y="2162"/>
+        </scene>
+        <!--settingsnvc-->
+        <scene sceneID="y3l-wI-ML3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="settingsnvc" storyboardName="Settings" referencedIdentifier="settingsnvc" id="FwI-vE-VLC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zjx-H6-8h7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhf-MR-PHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="282" y="2236"/>
+        </scene>
+        <!--hosthomenvc-->
+        <scene sceneID="FZ7-WK-3Ye">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="hosthomenvc" storyboardName="HostHome" referencedIdentifier="hosthomenvc" id="Q0r-vc-Uyk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="HtX-R5-VST"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rsy-Ja-atl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="1741"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="2107" height="3746"/>
+        <image name="ic_tutorial1" width="1033" height="935"/>
+        <image name="ic_tutorial2" width="940" height="940"/>
+        <image name="ic_tutorial3" width="934" height="934"/>
+    </resources>
+</document>
