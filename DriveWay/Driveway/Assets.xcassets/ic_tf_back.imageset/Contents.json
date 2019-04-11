@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 3
+        },
+        "cap-insets" : {
+          "bottom" : 36,
+          "top" : 50,
+          "right" : 52,
+          "left" : 47
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "ic_tf_back.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
